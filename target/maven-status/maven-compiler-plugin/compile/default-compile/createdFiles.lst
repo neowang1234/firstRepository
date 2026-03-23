@@ -1,0 +1,9 @@
+com\neo\amimalshelter\DisplayAnimalsSpecies.class
+com\neo\amimalshelter\SaveChanges.class
+com\neo\amimalshelter\AmimalShelter.class
+com\neo\amimalshelter\inputStream.class
+com\neo\amimalshelter\Animal.class
+com\neo\amimalshelter\SearchAnimal.class
+com\neo\amimalshelter\AddAnimal.class
+com\neo\amimalshelter\ImportFile.class
+com\neo\amimalshelter\RemoveAnimal.class
