@@ -76,9 +76,9 @@ public class AddAnimal {
 
         String adoptionFee = JOptionPane.showInputDialog("Information (12/12)\nWhat is the adoption fee of your animal?");
 
-        Animal animal = new Animal(idNum, species, name, gender, spayed, breed, color, birthday, vaccineStatus, identification, microIdNum, adoptionFee);
-        shelter.add(animal);
-        return shelter;
+       Animal animal = new Animal(idNum, species, name, gender, spayed, breed, color, birthday, vaccineStatus, identification, microIdNum, adoptionFee);
+       shelter.add(animal);
+       return shelter;
     }
 
 }
