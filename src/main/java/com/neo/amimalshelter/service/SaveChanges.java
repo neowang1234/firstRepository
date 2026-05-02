@@ -2,8 +2,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.neo.amimalshelter;
+package com.neo.amimalshelter.service;
 
+import com.neo.amimalshelter.domain.Animal;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;

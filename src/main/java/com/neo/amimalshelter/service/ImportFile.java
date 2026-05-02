@@ -2,9 +2,10 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.neo.amimalshelter;
+package com.neo.amimalshelter.service;
 
 
+import com.neo.amimalshelter.domain.Animal;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +19,7 @@ public class ImportFile {
     public List<Animal> importFile(String filePath){  
         InputStream in = ImportFile.class.getResourceAsStream(filePath);
         Scanner s = new Scanner(in);
-        List<Animal> shelter = new ArrayList<Animal>();
+        List<Animal> shelter = new ArrayList();
         
         while(s.hasNextLine()){
             String dataParts[] = s.nextLine().split(",");
