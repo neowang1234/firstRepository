@@ -1,9 +1,8 @@
+C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\service\SearchAnimal.java
 C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\ImportFile.java
-C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\RemoveAnimal.java
-C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\inputStream.java
-C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\Animal.java
-C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\AmimalShelter.java
-C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\AddAnimal.java
-C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\SaveChanges.java
-C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\SearchAnimal.java
+C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\service\SaveChanges.java
+C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\service\RemoveAnimal.java
+C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\AmimalShelterApplication.java
+C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\service\AnimalAdd.java
+C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\domain\Animal.java
 C:\neo\workspace\AmimalShelter\src\main\java\com\neo\amimalshelter\DisplayAnimalsSpecies.java

@@ -9,7 +9,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
-        <exec.mainClass>com.neo.amimalshelter.AmimalShelter</exec.mainClass>
+        <exec.mainClass>com.neo.amimalshelter.AmimalShelterApplication</exec.mainClass>
     </properties>
     
     <build>
@@ -21,7 +21,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>com.neo.amimalshelter.AmimalShelter</mainClass>
+                            <mainClass>com.neo.amimalshelter.AmimalShelterApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

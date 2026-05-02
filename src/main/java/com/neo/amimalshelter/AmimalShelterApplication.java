@@ -3,6 +3,13 @@
  */
 package com.neo.amimalshelter;
 
+import com.neo.amimalshelter.service.ImportFile;
+import com.neo.amimalshelter.ui.DisplayAnimalsSpecies;
+import com.neo.amimalshelter.service.SearchAnimal;
+import com.neo.amimalshelter.service.SaveChanges;
+import com.neo.amimalshelter.service.RemoveAnimal;
+import com.neo.amimalshelter.service.AnimalAdd;
+import com.neo.amimalshelter.domain.Animal;
 import java.util.List;
 import javax.swing.JOptionPane;
 
@@ -10,7 +17,7 @@ import javax.swing.JOptionPane;
  *
  * @author L0W-R1SE
  */
-public class AmimalShelter {
+public class AmimalShelterApplication {
 
     public static String displayMenu() {
         return (JOptionPane.showInputDialog("""
@@ -75,10 +82,13 @@ public class AmimalShelter {
             while (!option.equals("8") && !option.equals("")) {
                 decisionMaker(option, shelter);
                 option = displayMenu();
+                if(option == null){
+                    option = "";
+                }
             }
         }
 
-        JOptionPane.showMessageDialog(null, "User Chose to Exit/Did not enter anything. GoodBye!");
+        JOptionPane.showMessageDialog(null, "User Chose to Exit/Did not enter anything. Goodbye!");
         System.out.println(shelter.get(0));
     }
 }
